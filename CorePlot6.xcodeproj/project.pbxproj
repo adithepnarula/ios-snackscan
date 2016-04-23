@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A4E47240A4C406E1C66F231A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FFD77E1966A091DC2C8EE6 /* Pods.framework */; };
-		ED19A1291CB334AB00E530B4 /* DonutChart.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19A1281CB334AB00E530B4 /* DonutChart.m */; };
-		ED19A12C1CB334CD00E530B4 /* PlotItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19A12B1CB334CD00E530B4 /* PlotItem.m */; };
+		AEF045271CC6A7AD007B3274 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF045261CC6A7AD007B3274 /* Request.m */; };
+		ED1765A21CBEF39D00032C8C /* CMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1765A11CBEF39D00032C8C /* CMGViewController.m */; };
+		ED1765A51CBEF3EC00032C8C /* CMGOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1765A41CBEF3EC00032C8C /* CMGOverlayView.m */; };
+		ED1765A81CBF02A500032C8C /* PieChartV1.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1765A71CBF02A500032C8C /* PieChartV1.m */; };
+		ED1765AA1CBF055400032C8C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765A91CBF055400032C8C /* CoreMedia.framework */; };
+		ED1765AC1CBF055C00032C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765AB1CBF055C00032C8C /* CoreGraphics.framework */; };
+		ED1765AE1CBF056300032C8C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765AD1CBF056300032C8C /* CoreImage.framework */; };
+		ED1765B01CBF056E00032C8C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765AF1CBF056E00032C8C /* CoreVideo.framework */; };
+		ED1765B21CBF057500032C8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765B11CBF057500032C8C /* AVFoundation.framework */; };
+		ED1765B41CBF057D00032C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765B31CBF057D00032C8C /* UIKit.framework */; };
+		ED1765B61CBF058700032C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1765B51CBF058700032C8C /* Foundation.framework */; };
+		ED1765B91CC0647C00032C8C /* BarGraphV1.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1765B81CC0647C00032C8C /* BarGraphV1.m */; };
 		ED211E711CB1CDD700D79D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED211E701CB1CDD700D79D33 /* main.m */; };
 		ED211E741CB1CDD700D79D33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED211E731CB1CDD700D79D33 /* AppDelegate.m */; };
 		ED211E771CB1CDD700D79D33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED211E761CB1CDD700D79D33 /* ViewController.m */; };
@@ -18,6 +28,7 @@
 		ED211E7F1CB1CDD700D79D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED211E7D1CB1CDD700D79D33 /* LaunchScreen.storyboard */; };
 		ED211E8A1CB1CDD700D79D33 /* CorePlot6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED211E891CB1CDD700D79D33 /* CorePlot6Tests.m */; };
 		ED211E951CB1CDD700D79D33 /* CorePlot6UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED211E941CB1CDD700D79D33 /* CorePlot6UITests.m */; };
+		EDF6FC151CCAEC2700ECF080 /* scanner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FC141CCAEC2600ECF080 /* scanner.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +50,25 @@
 
 /* Begin PBXFileReference section */
 		94C287B4336E46E5CFE8B9BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF045251CC6A7AD007B3274 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		AEF045261CC6A7AD007B3274 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		D9FFD77E1966A091DC2C8EE6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61D67B44B77258B1B1F4AFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		ED19A1271CB334AB00E530B4 /* DonutChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutChart.h; sourceTree = "<group>"; };
-		ED19A1281CB334AB00E530B4 /* DonutChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutChart.m; sourceTree = "<group>"; };
-		ED19A12A1CB334CD00E530B4 /* PlotItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotItem.h; sourceTree = "<group>"; };
-		ED19A12B1CB334CD00E530B4 /* PlotItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotItem.m; sourceTree = "<group>"; };
+		ED1765A01CBEF39C00032C8C /* CMGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGViewController.h; sourceTree = "<group>"; };
+		ED1765A11CBEF39D00032C8C /* CMGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMGViewController.m; sourceTree = "<group>"; };
+		ED1765A31CBEF3EC00032C8C /* CMGOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGOverlayView.h; sourceTree = "<group>"; };
+		ED1765A41CBEF3EC00032C8C /* CMGOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMGOverlayView.m; sourceTree = "<group>"; };
+		ED1765A61CBF02A500032C8C /* PieChartV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartV1.h; sourceTree = "<group>"; };
+		ED1765A71CBF02A500032C8C /* PieChartV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartV1.m; sourceTree = "<group>"; };
+		ED1765A91CBF055400032C8C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ED1765AB1CBF055C00032C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED1765AD1CBF056300032C8C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		ED1765AF1CBF056E00032C8C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		ED1765B11CBF057500032C8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED1765B31CBF057D00032C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED1765B51CBF058700032C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED1765B71CC0647C00032C8C /* BarGraphV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphV1.h; sourceTree = "<group>"; };
+		ED1765B81CC0647C00032C8C /* BarGraphV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphV1.m; sourceTree = "<group>"; };
 		ED211E6C1CB1CDD700D79D33 /* CorePlot6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePlot6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED211E701CB1CDD700D79D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED211E721CB1CDD700D79D33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +85,7 @@
 		ED211E901CB1CDD700D79D33 /* CorePlot6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorePlot6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED211E941CB1CDD700D79D33 /* CorePlot6UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorePlot6UITests.m; sourceTree = "<group>"; };
 		ED211E961CB1CDD800D79D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF6FC141CCAEC2600ECF080 /* scanner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scanner.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +93,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1765B61CBF058700032C8C /* Foundation.framework in Frameworks */,
+				ED1765B41CBF057D00032C8C /* UIKit.framework in Frameworks */,
+				ED1765B21CBF057500032C8C /* AVFoundation.framework in Frameworks */,
+				ED1765B01CBF056E00032C8C /* CoreVideo.framework in Frameworks */,
+				ED1765AE1CBF056300032C8C /* CoreImage.framework in Frameworks */,
+				ED1765AC1CBF055C00032C8C /* CoreGraphics.framework in Frameworks */,
+				ED1765AA1CBF055400032C8C /* CoreMedia.framework in Frameworks */,
 				A4E47240A4C406E1C66F231A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +133,13 @@
 		CCE48470814882FDF90C97D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED1765B51CBF058700032C8C /* Foundation.framework */,
+				ED1765B31CBF057D00032C8C /* UIKit.framework */,
+				ED1765B11CBF057500032C8C /* AVFoundation.framework */,
+				ED1765AF1CBF056E00032C8C /* CoreVideo.framework */,
+				ED1765AD1CBF056300032C8C /* CoreImage.framework */,
+				ED1765AB1CBF055C00032C8C /* CoreGraphics.framework */,
+				ED1765A91CBF055400032C8C /* CoreMedia.framework */,
 				D9FFD77E1966A091DC2C8EE6 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -131,14 +170,16 @@
 		ED211E6E1CB1CDD700D79D33 /* CorePlot6 */ = {
 			isa = PBXGroup;
 			children = (
+				AEF045251CC6A7AD007B3274 /* Request.h */,
+				AEF045261CC6A7AD007B3274 /* Request.m */,
 				ED211E721CB1CDD700D79D33 /* AppDelegate.h */,
 				ED211E731CB1CDD700D79D33 /* AppDelegate.m */,
-				ED19A12A1CB334CD00E530B4 /* PlotItem.h */,
-				ED19A12B1CB334CD00E530B4 /* PlotItem.m */,
-				ED19A1271CB334AB00E530B4 /* DonutChart.h */,
-				ED19A1281CB334AB00E530B4 /* DonutChart.m */,
-				ED211E751CB1CDD700D79D33 /* ViewController.h */,
-				ED211E761CB1CDD700D79D33 /* ViewController.m */,
+				ED1765A01CBEF39C00032C8C /* CMGViewController.h */,
+				ED1765A11CBEF39D00032C8C /* CMGViewController.m */,
+				ED1765B71CC0647C00032C8C /* BarGraphV1.h */,
+				ED1765B81CC0647C00032C8C /* BarGraphV1.m */,
+				ED1765A61CBF02A500032C8C /* PieChartV1.h */,
+				ED1765A71CBF02A500032C8C /* PieChartV1.m */,
 				ED211E781CB1CDD700D79D33 /* Main.storyboard */,
 				ED211E7B1CB1CDD700D79D33 /* Assets.xcassets */,
 				ED211E7D1CB1CDD700D79D33 /* LaunchScreen.storyboard */,
@@ -151,7 +192,12 @@
 		ED211E6F1CB1CDD700D79D33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDF6FC141CCAEC2600ECF080 /* scanner.mp3 */,
+				ED211E751CB1CDD700D79D33 /* ViewController.h */,
+				ED211E761CB1CDD700D79D33 /* ViewController.m */,
 				ED211E701CB1CDD700D79D33 /* main.m */,
+				ED1765A31CBEF3EC00032C8C /* CMGOverlayView.h */,
+				ED1765A41CBEF3EC00032C8C /* CMGOverlayView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,6 +290,7 @@
 				TargetAttributes = {
 					ED211E6B1CB1CDD700D79D33 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7Z3529J56R;
 					};
 					ED211E841CB1CDD700D79D33 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -283,6 +330,7 @@
 				ED211E7F1CB1CDD700D79D33 /* LaunchScreen.storyboard in Resources */,
 				ED211E7C1CB1CDD700D79D33 /* Assets.xcassets in Resources */,
 				ED211E7A1CB1CDD700D79D33 /* Main.storyboard in Resources */,
+				EDF6FC151CCAEC2700ECF080 /* scanner.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,9 +405,12 @@
 			files = (
 				ED211E771CB1CDD700D79D33 /* ViewController.m in Sources */,
 				ED211E741CB1CDD700D79D33 /* AppDelegate.m in Sources */,
+				ED1765A21CBEF39D00032C8C /* CMGViewController.m in Sources */,
+				ED1765B91CC0647C00032C8C /* BarGraphV1.m in Sources */,
 				ED211E711CB1CDD700D79D33 /* main.m in Sources */,
-				ED19A12C1CB334CD00E530B4 /* PlotItem.m in Sources */,
-				ED19A1291CB334AB00E530B4 /* DonutChart.m in Sources */,
+				AEF045271CC6A7AD007B3274 /* Request.m in Sources */,
+				ED1765A51CBEF3EC00032C8C /* CMGOverlayView.m in Sources */,
+				ED1765A81CBF02A500032C8C /* PieChartV1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +552,8 @@
 			baseConfigurationReference = 94C287B4336E46E5CFE8B9BB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)/**",
 					"\"${PODS_ROOT}/Headers/Public\"/**",
@@ -510,6 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.CorePlot6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -518,6 +572,8 @@
 			baseConfigurationReference = E61D67B44B77258B1B1F4AFF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)/**",
 					"\"${PODS_ROOT}/Headers/Public\"/**",
@@ -527,6 +583,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.CorePlot6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

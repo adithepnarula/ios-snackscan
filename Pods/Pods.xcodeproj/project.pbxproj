@@ -160,6 +160,8 @@
 		AA74F6C67AD518C73069D8B16D50380A /* CPTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D788D14EE103ABD8AEC50D6FE0EC7B5E /* CPTGraph.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ABC487B6E4B4D9A677177EC6B9D90D67 /* CPTExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F43E75277B740C4D7D08DE6324AA86 /* CPTExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC59387990F95D50C2EC5B28A8154936 /* CPTXYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 836A1B20B325F82079D43926F4C7FB5F /* CPTXYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF045231CC6A78F007B3274 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF045211CC6A78F007B3274 /* Request.h */; };
+		AEF045241CC6A78F007B3274 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF045221CC6A78F007B3274 /* Request.m */; };
 		AF8D17A8DE3B432E327A86E60D4B2DA5 /* CPTLayerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8B4FE4683CE9B311D272198AE50041 /* CPTLayerAnnotation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B0B35CEE4365013EB0476A5D9F1F8A4B /* CPTXYAxisSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A244505009CA5A0F12F0F93172797613 /* CPTXYAxisSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B0C7716885EBE4F9EE6557AD4A14D0F0 /* CPTAxisSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D6C9E51973F237FD6AFF4230B5F93A /* CPTAxisSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -409,6 +411,8 @@
 		A6EC9B6482B9FA1F0CE9A35885167CCC /* CPTGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPTGradient.h; path = framework/Source/CPTGradient.h; sourceTree = "<group>"; };
 		A7DF8D7826309D1973B9E4DF7176B83F /* CPTTimeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPTTimeFormatter.m; path = framework/Source/CPTTimeFormatter.m; sourceTree = "<group>"; };
 		AA75A621B816E788A3764910775BD2D6 /* CPTTradingRangePlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPTTradingRangePlot.m; path = framework/Source/CPTTradingRangePlot.m; sourceTree = "<group>"; };
+		AEF045211CC6A78F007B3274 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		AEF045221CC6A78F007B3274 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		AF74B6C765036DA1806500562098088B /* CPTConstraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPTConstraints.m; path = framework/Source/CPTConstraints.m; sourceTree = "<group>"; };
 		AF8B4FE4683CE9B311D272198AE50041 /* CPTLayerAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPTLayerAnnotation.m; path = framework/Source/CPTLayerAnnotation.m; sourceTree = "<group>"; };
 		B11FCEDB671C25FB047D5B869F97DAC8 /* Pods-CorePlot6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorePlot6.debug.xcconfig"; sourceTree = "<group>"; };
@@ -814,6 +818,8 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				AEF045211CC6A78F007B3274 /* Request.h */,
+				AEF045221CC6A78F007B3274 /* Request.m */,
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				B35650950580C624CB359E4E1C9B5297 /* Pods */,
@@ -987,6 +993,7 @@
 				0C0A2CD3A32061BAEDD78261524F8D33 /* CPTPlotSpaceAnnotation.h in Headers */,
 				6F406E4C14C352834AF7DB016BF40E62 /* CPTPlotSymbol.h in Headers */,
 				0F200E9101B64C67619E01444178BFF6 /* CPTRangePlot.h in Headers */,
+				AEF045231CC6A78F007B3274 /* Request.h in Headers */,
 				96B8B9132D044F96B5CCF3CC55F6C64E /* CPTResponder.h in Headers */,
 				4F21C69A5CF7BA2509F2F8A01FDF2EFA /* CPTScatterPlot.h in Headers */,
 				2D99922E5245C20F33786BA1056CEB95 /* CPTShadow.h in Headers */,
@@ -1226,6 +1233,7 @@
 				21C372218674C2A873174B1DAD9CE52C /* CPTBorderedLayer.m in Sources */,
 				D891255EFE62C9D75736264B39A282C6 /* CPTCalendarFormatter.m in Sources */,
 				DDD4013891C2F5B5B8A2E7AD78227AE9 /* CPTColor.m in Sources */,
+				AEF045241CC6A78F007B3274 /* Request.m in Sources */,
 				36521B6DBD2524AFA91734CA1AE8C74B /* CPTColorSpace.m in Sources */,
 				1FBB5D86F74552E77565E2C9C38B32B9 /* CPTConstraints.m in Sources */,
 				BCC800503574F448A6F4A11F799199B2 /* CPTDefinitions.m in Sources */,

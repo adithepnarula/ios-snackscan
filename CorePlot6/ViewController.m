@@ -18,9 +18,6 @@
 @property(nonatomic, strong) NSMutableArray *pieData;
 
 
-
-
-
 @end
 
 @implementation ViewController
