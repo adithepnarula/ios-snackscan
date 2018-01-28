@@ -32,7 +32,7 @@ FoodLabels API - Everytime a barcode is scanned, the UPC code gets extracted fro
 If the user scans the UPC of the food product and the product does not exists in the API, the main view will blur out the video and overlay it with an error picture. User can press the scan icon on top of the page to re-scan another product.
 
 
-![error-page](/readme/eerror.jpg)
+![error-page](/readme/error.jpg)
 
 ### Calorie Page
 
