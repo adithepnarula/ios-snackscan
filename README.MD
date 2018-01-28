@@ -3,6 +3,8 @@ Snack Scan is a unique and visually captivating application that will allow you 
 
 Instead of searching endlessly through all of those labels and noise, Snack Scan will show you right away what ingredients are in your food and how much of it is present. With stunning data visualization, you’ll be able to see how much sugar, fiber, fat, cholesterol and protein is in the food item you're holding in your hand. Want to know even more? Swipe left and the application will show you whether the amount of food you’ve eaten for that day has exceeded the limit approved by the FDA or by your nutritionist. Let us help you eliminate all the hassle of making sure that the product is safe and healthy for you!
 
+![logo](/readme/logo.jpg)
+
 How Snack Scan works on a high-level:
 * User scans the UPC of a snack
 * Behind the scene, snack scan makes an API call to FoodEssentials API
@@ -15,15 +17,22 @@ Snack Scan was created by Adithep Narula, Adisa Narula, and Ethan Lew.
 ### Scan Page
 This is the initial app view. User scans the UPC of the food product.
 
+![scan](/readme/scan.jpg)
+
 ### Allergen Page
 
 After the user scans the UPC of the food product, if the product exists in the API, the main view will blur out the video and overlay it with icons of allergens. Users can tap on icon to get the name of the allergen. User can either press the scanner icon on top of the page to re-scan or swipe left to continue to calorie page.
 
 FoodLabels API - Everytime a barcode is scanned, the UPC code gets extracted from the product a GET response is made to the API and the API returns a JSON. This JSON is passed extracted and passed to the appropriate classes.
 
+![allergen](/readme/allergen.jpg)
+
 ### Error Page
 
 If the user scans the UPC of the food product and the product does not exists in the API, the main view will blur out the video and overlay it with an error picture. User can press the scan icon on top of the page to re-scan another product.
+
+
+![error-page](/readme/eerror.jpg)
 
 ### Calorie Page
 
@@ -35,7 +44,7 @@ This page shows the grams of different foods that the user has already consumed.
 # Implementation Detail
 One of the most interesting parts of this project was how we had to add UI objects programmatically. We did not use a storyboard because we had to add video view programatically and thus all of the user interfaces that come after this view were added programmatically.
 
-### Core Plot Library
+## Core Plot Library
 Core Plot is a plotting framework for Mac OS X and iOS. It provides 2D visualization of data, and is tightly integrated with Apple technologies like Core Animation, Core Data, and Cocoa Bindings. We utilized it to make our chart and graph.
 
 #### Graphs
