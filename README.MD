@@ -5,6 +5,11 @@ Instead of searching endlessly through all of those labels and noise, Snack Scan
 
 ![logo](/readme/logo.jpg)
 
+# Demo and promo video of Snack Scan 
+
+http://www.adithep.com/snackscan.html
+
+
 How Snack Scan works on a high-level:
 * User scans the UPC of a snack
 * Behind the scene, snack scan makes an API call to FoodEssentials API
