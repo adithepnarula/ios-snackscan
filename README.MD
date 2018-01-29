@@ -5,9 +5,11 @@ Instead of searching endlessly through all of those labels and noise, Snack Scan
 
 ![logo](/readme/logo.jpg)
 
-# Demo and promo video of Snack Scan 
+# Demo and promo video of Snack Scan
 
 http://www.adithep.com/snackscan.html
+
+![closeup](/readme/closeup.gif)
 
 
 How Snack Scan works on a high-level:
